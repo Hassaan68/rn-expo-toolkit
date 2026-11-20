@@ -1,0 +1,27 @@
+{
+  "secret-exposure-guard": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "run_command|read_file|view_file|grep_search",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./scripts/secret-guard.mjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "verification-gate-reminder": {
+    "enabled": true,
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node ./scripts/stop-verify-reminder.mjs",
+        "timeout": 10
+      }
+    ]
+  }
+}

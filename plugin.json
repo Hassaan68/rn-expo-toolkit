@@ -1,0 +1,14 @@
+{
+  "name": "rn-expo-toolkit",
+  "displayName": "React Native & Expo Toolkit",
+  "version": "1.0.0",
+  "description": "Production React Native and Expo engineering toolkit for Metro, Gradle, and CocoaPods build triage, Expo CNG and New Architecture readiness audits, Reanimated and FlashList performance profiling, and client-side AI agent tool-guardrail security.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Triage my failing React Native Metro, Android Gradle, or iOS CocoaPods build and identify the exact root cause",
+    "Audit this Expo project for Continuous Native Generation (CNG), config plugin drift, and New Architecture readiness",
+    "Profile this React Native codebase for Reanimated worklet stalls, FlashList virtualization bugs, and unnecessary re-renders",
+    "Audit our mobile AI agent tool calls, deep links, and storage for missing Zod validation and human-in-the-loop biometric gates",
+    "Run the verification gate and confirm TypeScript, lint, tests, and release readiness before shipping"
+  ]
+}
