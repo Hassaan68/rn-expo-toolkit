@@ -26,7 +26,7 @@ A production-grade, Marketplace-ready **Google Antigravity** plugin for **React 
 ### 1. One-Command Install via Antigravity CLI (`agy`)
 
 ```bash
-agy plugin install https://github.com/<your-org>/rn-expo-toolkit
+agy plugin install https://github.com/Hassaan68/rn-expo-toolkit
 ```
 
 Or install directly from a local checkout:
@@ -50,10 +50,10 @@ agy plugin install .
 
 ```bash
 # Workspace install
-git clone https://github.com/<your-org>/rn-expo-toolkit.git .agents/plugins/rn-expo-toolkit
+git clone https://github.com/Hassaan68/rn-expo-toolkit.git .agents/plugins/rn-expo-toolkit
 
 # Global install
-git clone https://github.com/<your-org>/rn-expo-toolkit.git ~/.gemini/config/plugins/rn-expo-toolkit
+git clone https://github.com/Hassaan68/rn-expo-toolkit.git ~/.gemini/config/plugins/rn-expo-toolkit
 ```
 
 ---
